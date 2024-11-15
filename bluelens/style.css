@@ -1,0 +1,269 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+#home {
+  height: 100vh;
+  width: 100%;
+}
+
+/*fixed icons on right side page*/
+#icons {
+  left: 90%;
+  top: 90%;
+  position: absolute;
+  position: fixed;
+}
+#icons a {
+  text-decoration: none;
+  color: white;
+}
+#icons a:hover {
+  color: rgb(71, 106, 186);
+}
+#icons:hover {
+  transform: scale(2.5);
+}
+
+/*home page*/
+#home-contents {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(9, 7, 16);
+  color: white;
+}
+#home #home-image {
+  height: 100vh;
+  width: 60%;
+}
+#home #home-image img {
+  height: 100vh;
+  width: 60%;
+}
+#home #home-content {
+  width: 40%;
+  top: 40%;
+  left: 50%;
+  position: absolute;
+}
+
+#home #home-content h1 span {
+  color: rgb(87, 85, 166);
+}
+
+#home #home-content button a {
+  color: white;
+  text-align: center;
+  text-decoration: none;
+}
+#home #home-content button {
+  width: 200px;
+  border: 2px solid rgb(71, 106, 186);
+  margin-top: 25px;
+  background-color: transparent;
+}
+/*our service page*/
+#Apros {
+  width: 100%;
+  height: 40vh;
+  position: relative;
+  background-color: rgb(9, 7, 16);
+  color: white;
+}
+#Apros ul {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin-left: 200px;
+  list-style: none;
+}
+#Apros ul li i {
+  margin-top: 100px;
+  text-align: center;
+}
+#Apros ul li p {
+  width: 40%;
+}
+
+/*portiffolio  page*/
+#poltifolio {
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(9, 7, 16);
+  color: white;
+  display: block;
+}
+#poltifolio h3 {
+  text-align: center;
+}
+#poltifolio h3 span {
+  color: rgb(71, 106, 186);
+}
+
+#poltifolio .card {
+  margin-left: 300px;
+  margin-bottom: 30px;
+  margin-top: 20px;
+}
+#poltifolio #card1 {
+  margin-bottom: 20px;
+}
+
+#poltifolio #card1 img {
+  width: 300px;
+  height: 300px;
+  margin-right: 20px;
+  margin-bottom: 50px;
+}
+#poltifolio #card2 img {
+  width: 300px;
+  height: 300px;
+  margin-right: 20px;
+  margin-top: -40px;
+}
+
+/*contact  page*/
+
+#contactus {
+  width: 100%;
+  height: 60vh;
+  display: flex;
+  background-color: rgb(9, 7, 16);
+  color: white;
+}
+#contactus .card {
+  margin-right: 100px;
+  margin-top: 40px;
+  margin-left: 200px;
+}
+#contactus .card p {
+  margin-top: 20px;
+}
+#contactus .card span {
+  color: rgb(87, 90, 239);
+}
+
+footer {
+  background-color: rgb(20, 29, 51);
+  color: white;
+  height: 10vh;
+  width: 100%;
+  text-align: center;
+  align-items: center;
+}
+
+@media only screen and (max-width: 600px) {
+  #nav .logo a img {
+    width: 200px;
+    height: 200px;
+    margin-left: 50px;
+    margin-top: -60px;
+  }
+  #nav .links {
+    display: none;
+  }
+  #home-contents {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(9, 7, 16);
+    color: white;
+  }
+  #home #home-image {
+    height: 100vh;
+    width: 100%;
+  }
+  #home #home-image img {
+    height: 100vh;
+    width: 100%;
+  }
+  #home #home-content {
+    width: 40%;
+    top: 40%;
+    left: 30%;
+    position: absolute;
+  }
+  #icons {
+    left: 90%;
+    top: 85%;
+  }
+  #icons a {
+    display: block;
+  }
+
+  #our-servisces .about-message {
+    width: 80%;
+    display: grid;
+    margin-top: 50px;
+  }
+
+  #our-servisces .about-message img {
+    display: none;
+  }
+  #our-servisces .about-message {
+    width: 40%;
+    display: grid;
+    margin-top: 100px;
+    margin-left: 20px;
+  }
+  #our-servisces .cathegolies {
+    width: 80%;
+    top: 20%;
+    left: 10%;
+    position: absolute;
+    display: block;
+  }
+  #our-servisces .cathegolies .cathegolies-boxes {
+    height: 150px;
+    width: 300px;
+  }
+  .cathegolies button {
+    width: 200px;
+  }
+
+  #poltifolio {
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(9, 7, 16);
+    color: white;
+  }
+  #poltifolio h3 {
+    text-align: center;
+  }
+  #poltifolio h3 span {
+    color: rgb(71, 106, 186);
+  }
+
+  #poltifolio .card {
+    margin-left: 20px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+  }
+  #poltifolio #card1 {
+    margin-bottom: 20px;
+  }
+
+  #poltifolio #card1 img {
+    width: 140px;
+    height: 200px;
+    margin-right: 10px;
+  }
+  #poltifolio #card2 img {
+    width: 140px;
+    height: 200px;
+    margin-right: 10px;
+  }
+  #contactus .card {
+    margin-right: 10px;
+    margin-top: 40px;
+    margin-left: 20px;
+  }
+  #contactus .card p {
+    font-size: 18px;
+    margin-top: 20px;
+  }
+  #contactus .card h3 {
+    font-size: 20px;
+  }
+}
